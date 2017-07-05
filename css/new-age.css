@@ -349,3 +349,10 @@ footer {
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px; }
+
+.nav-tabs > li, .nav-pills > li {
+      float:none;
+      display:inline-block;
+      *display:inline; /* ie7 fix */
+       zoom:1; /* hasLayout ie7 trigger */
+  }
