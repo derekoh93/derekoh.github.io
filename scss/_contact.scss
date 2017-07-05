@@ -44,6 +44,22 @@ section.contact {
                     }
                 }
             }
+            &.social-linkedin {
+                a {
+                    background-color: $brand-linkedin;
+                    &:hover {
+                        background-color: darken($brand-linkedin, 5%);
+                    }
+                }
+            }
+            &.social-github {
+                a {
+                  background-color: $brand-github;
+                  &:hover {
+                        background-color: darken($brand-github, 5%);
+                  }
+                }
+            }
         }
     }
 }
