@@ -94,7 +94,7 @@ body {
 }
 
 .nav a.active {
-  background-color: #fff;
+  background-color: #222222;
   color: #444;
   cursor: default;
 }
@@ -103,7 +103,6 @@ body {
   /* Option 1 - Display Inline */
   .nav li {
     display: inline-block;
-    margin-right: -4px;
   }
 
   /* Options 2 - Float
